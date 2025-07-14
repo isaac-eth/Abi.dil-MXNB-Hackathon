@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# Abi.dil - Escrow Deal Maker Dapp
+**Abi.dil** it´s a DApp that creates deals to be managed and payed through escrow logic.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## What can you do with Abi.dil
+-Create a deal choosing price and token to be used (MXNB or USDC) <br>
+-Pay a deal and automatically calculated commissions with stablecoins with a unique Deal ID. <br>
+-Release deals and transfer funds to seller. <br>
+-Consult your deals created. <br>
+-Consult a unique deal status. <br>
+-100% adaptable to mobile devices. <br>
+-Web 3 wallet support using rainbowkit. <br>
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Demo
+https://abi-dil-frontend-isaacslvgs-gmailcoms-projects.vercel.app/
+[Deployed on arbitrum, use an EVM wallet with Arbitrum mainet available]
